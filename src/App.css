@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.leftside-navbar {
+    display: inline-flex;
+}
+
+.rightside-navbar-tabs {
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+}
+
+.ant-tabs-nav-list {
+    display: flex;
+    font-family: Montserrat SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.ant-tabs-tab-btn {
+    display: grid;
+    place-items: center;
+    width: 112px;
+    height: 112px;
+    color: #6A6A6A;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+    background: #C00000;
+    color: #FFFFFF !important;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.ant-tabs-ink-bar.ant-tabs-ink-bar-animated,
+.ant-tabs-nav-operations.ant-tabs-nav-operations-hidden {
+    display: none;
+}
+
+.ant-tabs-tab + .ant-tabs-tab, .ant-tabs-tab, .ant-tabs .ant-tabs-nav{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .ant-btn-primary {
+    font-family: Montserrat SemiBold;
+    width: 176px;
+    height: 38px;
+    margin-left: 26px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #D63428;
+    border: none;
+}
+
+.menuIcon {
+    border: 0px;
+}
+
+.rightside-navbar-menu-icon {
+    display: none;
+}
+
+.anticon.anticon-pic-right svg {
+    width: 50px;
+    height: 50px;
+}
+
+.ant-drawer-content .ant-drawer-wrapper-body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.ant-drawer-header {
+    height: 50px;
+    background-color: #6A6A6A;
+}
+
+.ant-drawer-header-title {
+    display: flex;
+    height: 100%;
+    padding-left: 25px;
+    align-items: center;
+}
+
+.ant-drawer-header-title button,
+svg {
+    width: 25px;
+    height: 25px;
+    border: 0px;
+    background-color: #6A6A6A;
+    ;
+}
+
+.ant-drawer-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    width: 100%;
+    text-align: center;
+}
+
+.anticon svg {
+    background: inherit;
+}
+
+.primary-container {
+    max-width: 100vw;
+    padding: 50px 100px;
+}
+
+.primary-button {
+    text-transform: uppercase;
+    font-family: 'Montserrat SemiBold';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    height: fit-content;
+    padding: 8px 24px;
+}
+
+.secondary-button {
+    text-transform: uppercase;
+    font-family: 'Montserrat SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #6A6A6A;
+}
+
+.primary-title.ant-typography {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 55px;
+    line-height: 64px;
+    letter-spacing: 0.005em;
+    margin: 0 !important;
+    color: #373334;
+}
+
+.secondary-title {
+    font-family: 'Montserrat SemiBold';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* Responsive Tablet View */
+@media only screen and (max-width: 992px) {
+    .navbar {
+        padding: 0px 50px;
+    }
+
+    .primary-container {
+        padding: 50px;
+    }
+
+    .primary-title.ant-typography {
+        font-size: 45px;
+    }
+
+    .rightside-navbar-tabs {
+        display: none;
+    }
+
+    .rightside-navbar-menu-icon {
+        display: block;
+    }
+}
+
+/* Responsive Mobile View */
+@media only screen and (max-width: 576px) {
+    .navbar {
+        padding: 0px 25px;
+    }
+
+    .primary-container {
+        padding: 25px;
+        position: relative;
+    }
+
+    #product-view-all {
+        position: absolute;
+        bottom: -4rem;
+        left: 50%;
+        transform: translate(-50%);
+        color: #FFFFFF;
+        background-color: #6A6A6A;
+    }
+}
