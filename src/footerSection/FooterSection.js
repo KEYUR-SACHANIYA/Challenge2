@@ -8,7 +8,7 @@ import React, { useState } from "react";
 import { PrimaryButton } from "../components/PrimaryButton";
 import { PrimaryTitle } from "../components/PrimaryTitle";
 import { SecondaryTitle } from "../components/SecondaryTitle";
-import { Logo } from "../pimaryAppBar/Logo";
+import { Logo } from "../primaryAppBar/Logo";
 
 const { TextArea } = Input;
 
