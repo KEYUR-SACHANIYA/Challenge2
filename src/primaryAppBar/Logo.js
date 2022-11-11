@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Typography } from "antd";
+import { Image } from "antd";
 import logo from "../assets/images/Vector.jpg";
 import { SecondaryTitle } from "../components/SecondaryTitle";
 import { PrimaryTitle } from "../components/PrimaryTitle";
