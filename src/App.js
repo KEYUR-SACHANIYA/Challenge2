@@ -1,4 +1,4 @@
-import { PrimaryAppBar } from "./pimaryAppBar/PrimaryAppBar";
+import { PrimaryAppBar } from "./primaryAppBar/PrimaryAppBar";
 import { MainSection } from "./mainSection/MainSection";
 import { ProductSection } from "./productSection/ProductSection";
 import { QualitySection } from "./qualitySection/QualitySection";
